@@ -1,2 +1,2 @@
-These my basic projects build with Opencv
+These some basic projects build with Opencv
 

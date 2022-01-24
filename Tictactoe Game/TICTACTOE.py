@@ -1,12 +1,14 @@
+#Importing necessary libraries
 import cv2
 import numpy as np
-clicked = False
-x1 = 0
-y1 = 0
-co = 0
-cx = 0
-eo = 0
-w1 = 0
+#Declaring varibles
+clicked = False  #clicked function is to check when the user clicks
+x1 = 0           #x1 and y1 are used for drawing the cross and circles
+y1 = 0           
+co = 0           #co is used for calculating the centre of o
+cx = 0           #cx is used for calculating the centre of x
+eo = 0           #eo is odd even counter of clicked which helps to decide which shape to draw on a particular  click 
+w1 = 0           #w1 and w2 decide player 1 will win or player 2  
 w2 = 0
 cl = np.array([[0, 0, 0], [0, 0, 0], [0, 0, 0]])
 chances1 = "First person chances"

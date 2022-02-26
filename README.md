@@ -1,4 +1,4 @@
-These are some basic projects build with Opencv.
+These are some basic projects i build while learning Opencv and Arduino.
 
 #First project is a Object Detection Algorithm that identifies
 objects in a Image using YOLO Algorithm.

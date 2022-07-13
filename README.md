@@ -1,4 +1,4 @@
-# Project-1 Ball Detector and Canny Edge Detector
+# Project-1 Ball Detector
 
 ![Output](https://user-images.githubusercontent.com/82443192/178718583-3757c79d-d131-41c9-a7c6-da0dc1f2e939.JPG)
 

@@ -20,4 +20,12 @@ to that of r,g,b values of the clicked point and printed that colour name on a b
 
 https://user-images.githubusercontent.com/82443192/178725920-a5e504ed-ca77-4055-8946-7632a1206824.mp4
 
-Created a mask variable which stores the lower and upper hsv thresholds of the cloak (I have used tshirt).A back variable stores the background without anyone else in the frame before the actual detection starts. When the video runs, the frame variable stores the current frames from video and does bitwise and with the mask variable giving us the portion of frame that is only common with mask (i.e where the cloak is present), this value is stored in res1. Another variable res2 stores bitwise and of back variable and inverse of mask variable giving us the fake background as seen in video. Final ouput is sum of res1 and res2. Thus the person in the frame is not detected as res1 only contains part common with the tshirt.  
+Created a mask variable which stores the lower and upper hsv thresholds of the cloak (I have used tshirt).A back variable stores the background without anyone else in the frame before the actual detection starts. When the video runs, the frame variable stores the current frames from video and does bitwise and with the mask variable giving us the portion of frame that is only common with mask (i.e where the cloak is present), this value is stored in res1. Another variable res2 stores bitwise and of back variable and inverse of mask variable giving us the fake background as seen in video. Final ouput is sum of res1 and res2. Thus the person in the frame is not detected as res1 only contains part common with the tshirt.
+
+# Project-4 [Object Detector]
+
+https://user-images.githubusercontent.com/82443192/178738822-25945307-b072-4712-a3b5-742f7b06edfc.mp4
+
+Used You-Only-Look-Once (YOLO) pretrained model to detect objects on live video feed. Learned about Convolutional Neural Networks (CNN) and working of YOLO algorithm.
+
+

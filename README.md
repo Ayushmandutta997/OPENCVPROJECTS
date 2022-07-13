@@ -24,6 +24,8 @@ Created a mask variable which stores the lower and upper hsv thresholds of the c
 
 # Project-4 [Object Detector]
 
+https://user-images.githubusercontent.com/82443192/178740307-b1bd5e3a-a81e-4b16-853a-0e706c7e962e.mp4
+
 Used You-Only-Look-Once (YOLO) pretrained model to detect objects on live video feed. Learned about Convolutional Neural Networks (CNN) and working of YOLO algorithm.
 
 

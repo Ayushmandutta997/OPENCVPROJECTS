@@ -14,4 +14,4 @@ and printed the colour. Used the Canny function to detected edges in the video i
 
 The colours.csv file contains the name of different colours and their r,g,b values. So first of all whenever the mouse button is clicked at some part of flowers.jpg
 the decolour functions stores the B,G,R value in b,g,r variables then using this values i found the colour name whose r,g,b values have least difference as compared 
-to that of r,g,b values of the clicked point and printed that colour name.
+to that of r,g,b values of the clicked point and printed that colour name on a blank window.

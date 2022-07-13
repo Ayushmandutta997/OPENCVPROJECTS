@@ -28,4 +28,9 @@ https://user-images.githubusercontent.com/82443192/178740307-b1bd5e3a-a81e-4b16-
 
 Used You-Only-Look-Once (YOLO) pretrained model to detect objects on live video feed. Learned about Convolutional Neural Networks (CNN) and working of YOLO algorithm.
 
+# Project-5 [Tic-Tac-Toe Game]
+![XWINS](https://user-images.githubusercontent.com/82443192/178745449-b2e07c93-dc87-4636-b237-143f0557c212.JPG)
+![OWINS](https://user-images.githubusercontent.com/82443192/178745461-6b792ec8-1d16-45c1-9663-aeba252fff0e.JPG)
+![Draw](https://user-images.githubusercontent.com/82443192/178745492-5596ff43-039b-4291-ad60-5738b9d6119b.JPG)
 
+Our School time favourite Tic-Tac-Toe game. Used basic OpenCV knowledge and created a algorithm you to play Tic-Tac-Toe.

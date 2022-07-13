@@ -13,9 +13,11 @@ and printed the colour. Used the Canny function to detected edges in the video i
 ![colour](https://user-images.githubusercontent.com/82443192/178720781-9dda77df-b61a-488d-97f1-0ab69af24026.JPG)
 
 The colours.csv file contains the name of different colours and their r,g,b values. So first of all whenever the mouse button is clicked at some part of flowers.jpg
-the decolour functions stores the B,G,R value in b,g,r variables then using this values i found the colour name whose r,g,b values have least difference as compared 
+the decolour functions stores the B,G,R value in b,g,r variables then using this values I found the colour name whose r,g,b values have least difference as compared 
 to that of r,g,b values of the clicked point and printed that colour name on a blank window.
 
 # Project-3 [Invisible Man]
 
-Created a mask variable which stores the lower and upper hsv thresholds 
+https://user-images.githubusercontent.com/82443192/178725920-a5e504ed-ca77-4055-8946-7632a1206824.mp4
+
+Created a mask variable which stores the lower and upper hsv thresholds of the cloak (I have used tshirt).A back variable stores the background without anyone else in the frame before the actual detection starts. When the video runs, the frame variable stores the current frames from video and does bitwise and with the mask variable giving us the portion of frame that is only common with mask (i.e where the cloak is present), this value is stored in res1. Another variable res2 stores bitwise and of back variable and inverse of mask variable giving us the fake background as seen in video. Final ouput is sum of res1 and res2. Thus the person in the frame is not detected as res1 only contains part common with the tshirt.  
